@@ -1,3 +1,6 @@
+body{
+  background: rgb(164, 243, 74);
+}
 .square {
   background: teal;
   color: wheat;
