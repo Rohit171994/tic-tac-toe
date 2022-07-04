@@ -64,4 +64,5 @@ ul {
   color: white;
   font-weight: bold;
   width: 100px;
+  cursor: pointer;
 }
