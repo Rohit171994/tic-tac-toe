@@ -14,8 +14,8 @@ const Game = () => {
       setXIsNext(step % 2 === 0);
     };
     return (
-      <div style={{margin: '5px'}} key={move}>
-        <button onClick={() => jumpTo(move)}>{desc}</button>
+      <div key={move}>
+        <button className="btninfo" onClick={() => jumpTo(move)}>{desc}</button>
       </div>
     );
   });
@@ -50,7 +50,7 @@ const Game = () => {
         <Board onClick={(i) => handleClick(i)} square={current.squares} />
       </div>
       <div className="game-info">
-        <button style={{margin: '5px'}} onClick={handleRestart}>Restart</button>
+        <button className="btninfo" onClick={handleRestart}>Restart</button>
         <div>{move}</div>
       </div>
     </div>

@@ -55,3 +55,13 @@ ul {
   font-weight: bold;
   color: darkblue;
 }
+.btninfo{
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+}
